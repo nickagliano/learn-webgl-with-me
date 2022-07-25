@@ -1,7 +1,8 @@
-Rails.application.routes.draw do
-  get 'public/index'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+# frozen_string_literal: true
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+Rails.application.routes.draw do
+  root 'public#index'
+
+  get '/introduction', to: 'public#introduction'
+  get '/episode-one', to: 'public#episode_one'
 end
