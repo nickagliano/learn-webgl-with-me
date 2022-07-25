@@ -11,3 +11,11 @@
 }
 
 */
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: purple;
+}
