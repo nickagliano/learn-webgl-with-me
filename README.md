@@ -1,24 +1,32 @@
-# README
+# Learn WebGL With Me
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository holds my journey to learning WebGL.
 
-Things you may want to cover:
+It's mostly a series of interactive WebGL demos and what I learned building them.
 
-* Ruby version
+The end goal of _Learn WebGL With Me_ is to build a real-time simluation of stained glass with WebGL.
 
-* System dependencies
+## Repository Features
 
-* Configuration
+- Rails 7
+- Tailwind
+- twgl.js (a low-level wrapper on top of WebGL, as opposed to the higher-level Three.js)
 
-* Database creation
+## Prerequisites
 
-* Database initialization
+- Ruby 3.0.3
 
-* How to run the test suite
+## Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+### Prerequisites
 
-* Deployment instructions
+- Ruby 3.0.3
 
-* ...
+### Steps
+
+- Clone this repository, `git clone https://github.com/nickagliano/learn-webgl-with-me.git`
+- cd into directory, `cd learn-webgl-with-me`
+
+## TODO:
+
+- Am I going to write tests?
