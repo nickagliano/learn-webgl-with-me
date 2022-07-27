@@ -1,1 +1,1 @@
-web: ./bin/rails server -p 3000 -P tmp/rails_server_web.pid
+web: ./bin/rails server -p 5000 -P tmp/rails_server_web.pid
